@@ -58,7 +58,7 @@ if [ "$1" = "" ]; then
  exit
 fi
  
-egrep -n -i --color \
+egrep -n -i -H -o --color=never \
  "\\b(am|are|were|being|is|been|was|be)\
 \\b[ ]*(\w+ed|($irregulars))\\b" $*
  
