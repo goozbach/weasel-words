@@ -1,2 +1,14 @@
 Incorporated the scripts from this page:
 http://matt.might.net/articles/shell-scripts-for-passive-voice-weasel-words-duplicates/
+
+To install/update the contents run the folowing:
+
+    stow -vt /usr/local/ -R src/
+
+or just run 
+
+    make
+
+This is a "STOWABLE" structure. so the contents of things should be in src/ in the structure they should exist inside of the /usr/local directory.
+
+For more info read the stow manpage.
